@@ -1,0 +1,13 @@
+{
+  "previewPort": 3000,
+  "healthPath": "/",
+  "startCommand": "docker compose -f docker-compose.base44.yml up -d",
+  "secrets": [
+    {
+      "name": "FAL_KEY",
+      "description": "fal.ai API key for real-time video editing via the Lucy 2.5 model. Get it from https://fal.ai/dashboard/keys",
+      "requiredAtBoot": false,
+      "generatedForDevelopment": true
+    }
+  ]
+}
